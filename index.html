@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Titre</title>
+  <title>Fours banals</title>
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
 
@@ -31,7 +31,7 @@
 
     /* SECTIONS TEXTE */
     .section {
-      max-width: 800px;
+      max-width: 1000px;
       margin: 60px auto;
       padding: 0 30px;
     }
@@ -262,7 +262,7 @@
 .texte-preview {
   font-size: 0.95em;
   line-height: 1.5;
-  color: #3B6E4A;
+  color: #000000;
   margin-top: 8px;
   margin-bottom: 0;
 }
@@ -318,7 +318,6 @@
 
   <!-- SECTION 1 -->
   <div class="section">
-    <h2>Un four banal... c'est quoi ? </h2>
     <p>Les fours banals sont des fours à pains traditionnels, qui se retrouvent dans différents villages de montagne dans l'arc alpin. Ils font partis du patrimoine alimentaire alpin.</p>
   </div>
 
@@ -735,6 +734,36 @@
         document.getElementById('overlay').classList.remove('active');
       }
     }
+    
+    // Tronque le texte de prévisualisation avant le lien "Lire la suite"
+    function truncateTextBeforeLireSuite(limit = 50) {
+      const previews = document.querySelectorAll('.texte-preview');
+      previews.forEach(el => {
+        const lire = el.querySelector('.lire-suite');
+        if (!lire) return;
+        // Récupère tout le texte avant le span .lire-suite
+        let textBefore = '';
+        for (const node of Array.from(el.childNodes)) {
+          if (node === lire) break;
+          if (node.nodeType === Node.TEXT_NODE) textBefore += node.textContent;
+          else if (node.nodeType === Node.ELEMENT_NODE) textBefore += node.textContent;
+        }
+        const trimmed = textBefore.replace(/\s+/g, ' ').trim();
+        if (!trimmed) return;
+        let newText = trimmed;
+        if (trimmed.length > limit) {
+          newText = trimmed.slice(0, limit).trim() + '... ';
+        } else {
+          newText = trimmed + ' ';
+        }
+        // Supprime les noeuds avant le span puis insère le texte tronqué
+        while (el.firstChild && el.firstChild !== lire) el.removeChild(el.firstChild);
+        el.insertBefore(document.createTextNode(newText), lire);
+      });
+    }
+
+    // Appliquer immédiatement (le script est en bas de la page)
+    truncateTextBeforeLireSuite(50);
   </script>
 </body>
 </html>

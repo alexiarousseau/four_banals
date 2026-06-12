@@ -182,7 +182,7 @@ Après réflexion sur la forme décrite ci-dessus, je trouvais que de seulement 
 **Figure 6 : Manque de clarté dans le pop-up**
 </div>
 
-Afin de mettre en oeuvre ces changements, j'ai demandé à ClaudeIA "je veux mettre le début (2 lignes) de chacun des textes directement sous l'image (texte actuellement seulement visible au pop-up), sur la page principale. Je veux que ce texte se termine par "lire la suite...", pour inciter le public à cliquer. Tu peux faire un test avec le premier élément (La Rosière)" Le résultat était satisfaisant (figure 7), mais j'ai fait une seconde requête afin de raccourcir le texte visible (140 à 120 caratctères).
+Afin de mettre en oeuvre ces changements, j'ai demandé à ClaudeIA "je veux mettre le début (2 lignes) de chacun des textes directement sous l'image (texte actuellement seulement visible au pop-up), sur la page principale. Je veux que ce texte se termine par "lire la suite...", pour inciter le public à cliquer. Tu peux faire un test avec le premier élément (La Rosière)" Le résultat était satisfaisant (figure 7), mais j'ai fait une seconde requête afin de raccourcir le texte visible (140 à 120 caratctères, puis 50 caractères).
 
 <div align="center">
 <img src="images/claude/lire_la_suite.png" width="500" />
