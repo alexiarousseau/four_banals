@@ -106,6 +106,8 @@
       max-width: 650px;
       width: 90%;
       position: relative;
+       max-height: 80vh;
+      overflow-y: auto;
     }
 
     .popup img {
@@ -287,8 +289,10 @@
   font-weight: bold;
   font-size: 1.1em;
   color: #3B6E4A;
-  margin-bottom: 10px;
-  margin-top: 15px;
+  margin-bottom: 8px;
+  margin-top: 20px;
+  border-bottom: 1px solid #e0d5c5;
+  padding-bottom: 4px;
 }
 
 .popup-subtitle:first-child {
@@ -297,8 +301,9 @@
 
 .popup-content {
   font-size: 1em;
-  line-height: 1.6;
+  line-height: 1.8;
   color: #444;
+  margin-bottom: 10px;
 }
 
 .popup-evolution-img {
@@ -342,7 +347,7 @@
   <div class="section">
     <h2 style="text-align: center;">29 fours répartis dans 9 communes</h2>
    </div> 
-   
+
 <!-- CARTE -->
 <div class="carte-container">
   <img src="images/carte/carte.png" alt="Carte" class="carte-img">
@@ -697,6 +702,8 @@
       
       document.getElementById('popup-contenu').innerHTML = contenuHTML;
       document.getElementById('overlay').classList.add('active');
+      const popup = document.querySelector('.popup');
+      popup.scrollTop = 0;
       
       // Ajouter les event listeners pour les images cliquables
       setTimeout(() => {
