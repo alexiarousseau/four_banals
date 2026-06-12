@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 **Informations générales - introduction**
 | **À intégrer** | 
 |:-------|
@@ -217,23 +216,6 @@ Bourg-St-Pierre 	Hospice Grand-Saint-Bernard
 |Nom du four et emplacement |
 |Description des pratiques|
 |Évolution du four|
-=======
-**Informations générales - introduction**
-| **À intégrer** | 
-|:-------|
-|Définition d'un four banal : Les fours banals, traditionnellement des lieux communautaires de fabrication du pain, jouent encore à ce jour un rôle de transmission de savoir-faire intergénérationnels et de cohésion sociale.|
-|Importance historique : Alors qu’ils relevaient de l’autorité seigneuriale au Moyen Âge, les fours banals et toute la culture de céréale en région de montagne avait une importance vitale et représentait le coeur de la vie sociale. Ces pratiques sont organisés et rendus possibles grâce à des efforts communautaires majeurs, géré en bien communs. Les fours banal ont vu leur fonction diminué avec l'arrivée des chemins de fer et les grands changements liées à la modernisation des styles de vie (industrialisation, professionnalisation du métier de boulanger). À ce moment, des produits en provenance de l'extérieur de la Suisse arrivaient, et pour moins chers. Cela a mené à une diminution des cultures de blés. Les fours banals qui ont su résister à ce changement sont les plus éloignés, dans les régions difficiles d'accès. C'est seulement vers les années 80-90 que de nombreux fours ont été restaurés, et que les anciens consortages ont repris vie afin de rénover puis faire perdurer les savoirs. À ce jour, leur gestion est assurée par des consortages, associations ou confréries, qui  décident de leur entretien, de leur rénovation et de leur mise en valeur.| 
-|Carte avec localisation des fours| 
-
-
-**Informations précises pour chaque four**
-
-Trient	Jeurs
-| **Trient	Jeurs** |
-|:-------|
-|46.059167, 6.966455|
-|Description des pratiques : Le boulanger de Trient prépare les pains (environ 70), vendus 5.- pièce. Il y a une capacité de production de 130 pains, mais ils ont baissé la production. Le four est allumé le dimanche et chauffé doucement pour faire le pain le samedi suivant. La fournée à lieu lors de la fête patronale du 1er weekend d'août.|
-|Évolution du four|
 
 Trient	Village
 | **Trient	Village** |
@@ -436,4 +418,3 @@ Bourg-St-Pierre 	Hospice Grand-Saint-Bernard
 |Nom du four et emplacement |
 |Description des pratiques|
 |Évolution du four|
->>>>>>> 5a7764a1086bdb55ea2af0362e61928e503d426e
