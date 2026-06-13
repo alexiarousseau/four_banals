@@ -64,15 +64,6 @@ Les tableaux suivants présentent les personas, en vu de la théorie et de l'exe
 
 Cette section comprend des réflexions fait au préalable et durant la création de la visualisation, concernant la sémiologie, l'interaction, la communication graphique...
 
-
-*Projet de communicaiton localiser* 
-*Passer d’une carte à un endroit spécifique : montrer où c’est* 
-*Action de focalisation*  
-*Quelle est la question à laquelle je veux répondre ?* 
-*Dans une expo: sur un grand écran* 
-*Comment inciter les gens à faire quelque chose ?*
-*Autopilote, ou qqchose qui clignote (scroll ici, peser ici)* 
-*À la fin : revenir sur l’état de départ automatiquement*  
 #### 2.1 Réflexions théoriques 
 
 Selon le cube de la géovisualisation (MacEachren, 1994), mon projet se situe vers les extrémités de chaque axes (figure 1). Les différents axes seront expliqués en détails:
@@ -124,13 +115,6 @@ Puis, en fonction des fours choisis, intégrer des informations précises sur ce
 |Évolution du four| 4 |1 et 2|
 
 </div>
-
-INTERACTIONS
-
-
-
-SÉMIOLOGIE
-
 
 #### 3. Réalisation de la visualisation
 
@@ -190,13 +174,13 @@ Afin de mettre en oeuvre ces changements, j'ai demandé à ClaudeIA "je veux met
 **Figure 7 : Intégration Lire la suite**
 </div>
 
-Afin de modifier le pop up, j'ai effectué la requête : "Je veux divisé le pop up en plusieurs sections. Je veux avoir les sous-titres : Pratiques actuelles et Évolution. Le texte actuel se trouverait sous le sous-titre Pratiques actuelles. Sous le sous-titre Évolution, il y aurait place à insérer une image. Tu peux faire un test avec le four de la Rosière." Le résultat était satisfaisant, mais lors de l'ouverture du pop-up, la mise en page ne permettait pas de lire toute l'information, ni de défiler... J'ai essayé de mettre les images une à côté de l'autre, mais je n'aime pas mieux (lisibilité de la fris chronologique fiable). J'ai réalisé que le problème était le format de la frise. L'image n'était pas du tout cadré correctement. Je crois qu'en la cadrant correctement, elle sera lisible dans le format vertical du pop-up. J'ai ensuite demandé à ClaudeIA d'implémenter le même format pour tous les autres fours. Enfin, je trouvais que la frise n'était toujours pas très visible, j'ai demandé à ClaudeIA qu'elle soit clicable (pour la voir en plus grand). Et le background était noir, donc on voyait mal (car c'est un fichier sans fond - texte noir sur noir était problématique) et j'ai modifié le fond en blanc. 
+Afin de modifier le pop up, j'ai effectué la requête : "Je veux divisé le pop up en plusieurs sections. Je veux avoir les sous-titres : Pratiques actuelles et Évolution. Le texte actuel se trouverait sous le sous-titre Pratiques actuelles. Sous le sous-titre Évolution, il y aurait place à insérer une image. Tu peux faire un test avec le four de la Rosière." Le résultat était satisfaisant, mais lors de l'ouverture du pop-up, la mise en page ne permettait pas de lire toute l'information, ni de défiler... J'ai essayé de mettre les images une à côté de l'autre, mais je n'aime pas mieux (lisibilité de la fris chronologique fiable). J'ai réalisé que le problème était le format de la frise. L'image n'était pas du tout cadré correctement. Je crois qu'en la cadrant correctement, elle sera lisible dans le format vertical du pop-up. J'ai ensuite demandé à ClaudeIA d'implémenter le même format pour tous les autres fours. Enfin, je trouvais que la frise n'était toujours pas très visible, j'ai demandé à ClaudeIA qu'elle soit clicable (pour la voir en plus grand). Et le background était noir, donc on voyait mal (car c'est un fichier sans fond - texte noir sur noir était problématique) et j'ai modifié le fond en blanc. Ensuite, j'ai rajouté une fonction que tous les pop ups sont du même format, et un scroll, afin d'uniformiser (avec une requête à ClaudeIA).
 
 #### 4. Visualisation réalisée
 
 ##### 4.1 Description de la visualisation réalisée
 
-La visualisation a d'abord été conceptualisé et réalisé sous la forme d'une StoryMaps, une fonctionnalité de ArcGIS. 
+La visualisation a d'abord été conceptualisé et réalisé sous la forme d'une StoryMaps, une fonctionnalité de ArcGIS.  
 
 #### 4.2 Évaluation de la visualisation
 
