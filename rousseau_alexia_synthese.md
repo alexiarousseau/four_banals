@@ -23,10 +23,7 @@ Ainsi, la visualisation tente de répondre aux questions suivantes :
 #### 1.2 Importance de cette visualisation
 
 
-
-
-
-
+Cette visualisation est importante, puisqu'elle permet de combler le vide dans l'accessibilité à l'information sur les fours banals dans deux régions du Valais. La valorisation de ces pratiques via le site internet permet de mettre en lumière un patrimoine qui a faili être complètement perdu au milieu du 20e siècle.
 
 #### 1.3 Définition du public cible
 
@@ -73,7 +70,9 @@ Selon le cube de la géovisualisation (MacEachren, 1994), mon projet se situe ve
 - Collaboration context: Le public ciblé, comme décrit plus haut, comprend différents profils, tous non experts. Ainsi, sur l'axe vertical, la visualisation se situe plutôt vers le haut.
 
 <div align="center">
+
 <img src="images/theorie/cube_geovis.png" width="500" />
+
 **Figure 1 : Cube de la géovisualisaton**
 </div>
 
@@ -132,6 +131,7 @@ Ma réflexion a évolué quant à l'intégration d'une carte de l'emplacement de
 
 
 <div align="center">
+
 <img src="images/theorie/carte.png" width="500" />
 
 
@@ -336,13 +336,30 @@ Pour conclure, les utilisateurs·ices fictifs·ves sont partiellement satisfait�
 
 #### 4.3 Résultats des tests utilisateurs·ices
 
-Une utilisatrice a testé la carte, et a relevé un point important. La section sur les différentes communes et les fours actifs est trop longue, et nécessiterait quelconque séparation afin de structuré l'histoire. Cela tend à être redondant et peut être passé au côté d'informations intéressantes. 
+Une utilisatrice a testé la visualisation, avec comme objectif de trouver les informations pour le four des Marécottes. L'utilisatrice a relevé un point important. La section sur les différentes communes et les fours actifs est trop longue, et nécessiterait quelconque séparation afin de structuré l'histoire. Cela tend à être redondant et peut être passé au côté d'informations intéressantes. De plus, cette section n'est pas en ordre alphabétique ni les fours ont même la section. Ainsi, il est nécessaire de tout lire, ajoutant une contrainte temporelle importante. En ce qui concerne les informations historiques, il n'y avait pas de soucis.
 
 
+Un second utilisateur a testé la visualisation et a trouvé facilement les informations qu'il cherchait, mais a eu de la peine à partager l'information, puisqu'il n'est pas possible de partager un lien (aucune fonction de partage), et même en partageant l'URL d'un four, cela mène à la page principale. Ainsi, l'utilisateur a effectué une capture d'écran afin de partager l'information. Cela est peu efficace pour la pérennité du site internet. 
+
+
+Une troisième utilisatrice a testé la visualisation, avec but d'en apprendre davantage sur l'historique des fours. Celle-ci a été agréablement surprise par le contexte expliqué de façon précise, quoiqu'un peu trop synthétique. Elle aurait aimé avoir la chance d'en lire davantage, ou de pouvoir être référée à d'autres sources.
 
 
 ### 5. Discussion et conclusion
 
+Il est important de noter que la visualisation n'est pas terminée, et que des photos seront ajoutées à tous les endroits où il est noté "image à venir", et que des frises chronologiques seront ajoutées sous chaque section "Évolution".
+
+
+Les objectifs attribués au début du projet sont partiellement atteints. Bien que le projet a effectivement une vissée communicationnelles qui reprend des informations historiques, la seconde partie de création de lien entre les fours est lacunaire. Comme il n'y a pas de fonction de partage, le lien doit se faire via, soit le partage de l'entièreté du site, soit une capture d'écran. Les questions auxquels la visualisation doit répondre sont également partiellement répondues : je n'ai pas vraiment répondu à la question sur les tendances générales d'évolution des fours banals. 
+
+
+Un retour sur l'évolution des choix techniques est nécessaire, en raison du changement de StoryMaps à HTML. Bien que le résultat est moins esthétique que si cela avait été réalisé en StoryMaps, je crois, avoir réussi a créé quelque chose de complet, avec plus de liberté. Par contre, cela a également été énergivore, rendant certaines complexités techniques fatales et ne me permettant pas de créer une carte avec une sémiologie efficace, avec des points proportionnels. De plus, pour n'avoir jamais touché au code avant, j'ai également atteint des objectifs d'apprentissages personnels.
+
+
+Enfin, en guise de retour sur les expériences utilisateurs, ils sont partiellement satisfaits. Un manque d'informations précis est perçu pour les personnes cherchant à s'impliquer. De plus, en ce qui a trait à la fluidité et la structure du site, elle est bonne au début. Ensuite, la section des différentes commune et redondante et non structurée (pas en ordre alphabétique), menant rapidement à une fatigue de lecture.
+
+
+En guise de conclusion, ce site web, encore en cours de travail, répond aux en partie avec objectifs et questions et permet de combler le vide dans l'accessibilité à l'information sur les fours banals dans deux régions du Valais. Bien que des lacunes sémiologiques rendent l'interface plus complexe d'usage. La meilleure intégration du lien vers la carte interactive serait à prévoir afin d'assurer une meilleure compréhension et fluidité du site.
 
 ### Bibliographique
 
