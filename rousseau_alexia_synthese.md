@@ -226,6 +226,7 @@ Enfin, j'ai ajouté des onglets en haut qui réfère aux communes, suite à la d
 
 ### 4. Visualisation réalisée
 
+La visualisation réalisée est présente du index.html. Les autres documents présents dand le dossier ont permis de mettre en place soit ce document (rousseau_alexia_synthese) ou le document index.html.
 
 #### 4.1 Description de la visualisation réalisée
 
