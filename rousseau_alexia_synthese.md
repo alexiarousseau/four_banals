@@ -1,6 +1,6 @@
 # **Géovisualisation de Alexia Rousseau, juin 2026**
 ## **Les fours banals (Entremont et vallée du Trient)**
-## ** https://alexiarousseau.github.io/four_banals/ ; repo complet : https://github.com/alexiarousseau/four_banals **
+## https://alexiarousseau.github.io/four_banals/ ; repo complet : https://github.com/alexiarousseau/four_banals
 ### 1. Contexte du projet
 
 Ce projet s'inscrit dans le cadre du cours Géovisualisation et traitement de l'information de Christian Kaiser (Université de Lausanne). L'objectif est de créer une visualisation, tout en intégrant les notions et concepts abordés durant les séances. Au fil de ce document de présentation, ces acquis théoriques permettront de nourrir la discussion et la justification des différents choix (représentation, interactivité, communication graphique, efficacité, facilité d'utilisation...)
