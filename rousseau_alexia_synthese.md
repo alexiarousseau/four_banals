@@ -1,5 +1,6 @@
 # **Géovisualisation de Alexia Rousseau, juin 2026**
 ## **Les fours banals (Entremont et vallée du Trient)**
+## **https://alexiarousseau.github.io/four_banals/**
 ### 1. Contexte du projet
 
 Ce projet s'inscrit dans le cadre du cours Géovisualisation et traitement de l'information de Christian Kaiser (Université de Lausanne). L'objectif est de créer une visualisation, tout en intégrant les notions et concepts abordés durant les séances. Au fil de ce document de présentation, ces acquis théoriques permettront de nourrir la discussion et la justification des différents choix (représentation, interactivité, communication graphique, efficacité, facilité d'utilisation...)
@@ -226,10 +227,10 @@ Enfin, j'ai ajouté des onglets en haut qui réfère aux communes, suite à la d
 
 ### 4. Visualisation réalisée
 
-La visualisation réalisée est présente du index.html. Les autres documents présents dand le dossier ont permis de mettre en place soit ce document (rousseau_alexia_synthese) ou le document index.html.
+La visualisation réalisée est présente ici : https://alexiarousseau.github.io/four_banals/.  
+Je vous ai partagé le repo Github, alexiarousseau/four_banals. Le fichier index.html est le site web, et les autres fichiers présents dans le dossier (commandes.md, infos.md, cube_geovis.af, et les deux dossiers - af et images) contiennent des informations et liens relatifs à ce fichier (rousseau_alexia_synthese) ou le fichier index.html.
 
 #### 4.1 Description de la visualisation réalisée
-
 
 La visualisation a d'abord été conceptualisée et réalisée sous la forme d'une StoryMaps, une fonctionnalité de ArcGIS.  
 Ensuite, comme défini plus haut, le projet a été transféré en HTML. La visualisation réalisée comprendre une courte description du contexte du projet, puis défini les fours banals. Ensuite, une section concernant l'importance historique est présente, en s'intéressant à l'évolution depuis le Moyen Âge. Dans une optique de structuration du site, une image ainsi qu'une bande "statistiques" sont présentes. 
@@ -350,13 +351,13 @@ Une troisième utilisatrice a testé la visualisation, avec but d'en apprendre d
 
 Il est important de noter que la visualisation n'est pas terminée, et que des photos seront ajoutées à tous les endroits où il est noté "image à venir", et que des frises chronologiques seront ajoutées sous chaque section "Évolution".
 
+Les objectifs attribués au début du projet sont partiellement atteints. Bien que le projet a effectivement une visée communicationnelle qui reprend des informations historiques, la seconde partie de création de lien entre les fours est lacunaire. Comme il n'y a pas de fonction de partage, le lien doit se faire via soit le partage de l'entièreté du site, soit une capture d'écran. Les questions auxquels la visualisation doit répondre sont également partiellement répondues : je n'ai pas vraiment répondu à la question sur les tendances générales d'évolution des fours banals. 
 
-Les objectifs attribués au début du projet sont partiellement atteints. Bien que le projet a effectivement une vissée communicationnelles qui reprend des informations historiques, la seconde partie de création de lien entre les fours est lacunaire. Comme il n'y a pas de fonction de partage, le lien doit se faire via, soit le partage de l'entièreté du site, soit une capture d'écran. Les questions auxquels la visualisation doit répondre sont également partiellement répondues : je n'ai pas vraiment répondu à la question sur les tendances générales d'évolution des fours banals. 
 
 En ce qui concerne le cadre théorique établi en début de projet (faible interaction), ce dernier a été peu respecté. Bien qu'une partie du projet soit strictement communicationnelle, j'ai créé beaucoup de pop up et la présence d'une carte statique, mais interactive semble aller dans une direction contraire à la théorie établie au départ. Ce décalage s'explique en partie par des contraintes pratiques (grande quantité de fours à couvrir). Dans ce cas, ne pas intégrer de pop-up ou différentes pages aurait rendu la visualisation très longue et diminué la lisibilité. Cet ajout d'interaction peut venir accentuer les difficultés pour un public non connaisseur. 
 
 
-Un retour sur l'évolution des choix techniques est nécessaire, en raison du changement de StoryMaps à HTML. Bien que le résultat est moins esthétique que si cela avait été réalisé en StoryMaps, je crois, avoir réussi a créé quelque chose de complet, avec plus de liberté. Par contre, cela a également été énergivore, rendant certaines complexités techniques fatales et ne me permettant pas de créer une carte avec une sémiologie efficace, avec des points proportionnels. De plus, pour n'avoir jamais touché au code avant, j'ai également atteint des objectifs d'apprentissages personnels.
+Un retour sur l'évolution des choix techniques est nécessaire, en raison du changement de StoryMaps à HTML. Bien que le résultat est moins esthétique que si cela avait été réalisé en StoryMaps, je crois, avoir réussi a créé quelque chose de complet, avec plus de liberté. Par contre, cela a également été énergivore et ne me permettant pas de créer une carte avec une sémiologie efficace, avec des points proportionnels par exemple. De plus, pour n'avoir jamais touché au code avant, j'ai également atteint des objectifs d'apprentissages personnels. La mise en page choisie (avec différents sous-titres) permet de guider le lectorat. Cela rend plus simple le saut d'une section à l'autre. Ensuite, la bande avec les statiques permet une réelle coupure entre la section historique et les différents fours, tout en mettant une emphase particulière aux chiffres importants. Encore dans une optique de guider le lectorat, les boutons Lire la suite... permettent de guider le lecteur, en n'ayant pas besoin de lui expliquer quoi faire. Enfin, l'idée de la visualisation lisible sur téléphone a été atteinte grâce à la modification de la carte statique en .svg vers .jpg. En .svg, les éléments de la carte s'imbriquaient un par-dessus les autres. 
 
 
 Enfin, en guise de retour sur les expériences utilisateurs, ils sont partiellement satisfaits. Un manque d'informations précis est perçu pour les personnes cherchant à s'impliquer. De plus, en ce qui a trait à la fluidité et la structure du site, elle est bonne au début. Ensuite, la section des différentes commune et redondante et non structurée (pas en ordre alphabétique), menant rapidement à une fatigue de lecture.
