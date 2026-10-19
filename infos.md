@@ -193,7 +193,7 @@ Orsières	Four banal des Arlaches
 | **À intégrer** |
 |:-------|
 |Nom du four et emplacement |
-|Description des pratiques|
+|Description des pratiques: Les pains sont cuits trois fois par années, en décembrem avril et septembre. Le four a été refait en 1974, puis de travaux ponctuels ont été effectués. Outre cela, il a toujours été en fonction. Chaque famille s'organise pour ses propres fournées, avec sa propre recette, principalement seigle et farine mi-blanche. La spécialité de ce four est les Cougnouls, soit une galette de pommes et farine.|
 |Évolution du four|
 
 Orsières	Four banal de Biolley
@@ -214,7 +214,7 @@ Bourg-St-Pierre 	Hospice Grand-Saint-Bernard
 | **À intégrer** |
 |:-------|
 |Nom du four et emplacement |
-|Description des pratiques|
+|Description des pratiques :  Le four a été remis en état en 2012 à l'occasion de l'exposition temporaire "Pain de la terre, pain du ciel". Il existe un livre que l'on trouve à l'Hospice et qui présente cette exposition. Le four a été mis hors service en été 2025 lors de la restauration de la toiture du bâtiment St-Louis, en raison de la trop grande proximité avec une auberge, un musée et des chiens (3 entités dans un espace réduit) avec le four - et les soucis incendie qui vont avec - situé presque au fond des escaliers de secours.|
 |Évolution du four|
 
 Trient	Village
